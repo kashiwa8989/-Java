@@ -47,6 +47,13 @@ public class App {
         System.out.println(number4);
 
         //自己代入の省略した書き方
+        int number5 =8;
+        number5 *= 7;
+        System.out.println(number5);
+        number5 ++;
+        System.out.println(number5);
+        
+        //変数の役割と注意点
         
 
 
