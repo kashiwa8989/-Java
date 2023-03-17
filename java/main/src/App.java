@@ -54,7 +54,26 @@ public class App {
         System.out.println(number5);
         
         //変数の役割と注意点
-        
+        int length = 6;
+        int height = 8;
+        int rectangleArea = length * height;
+        System.out.println(rectangleArea);
+        int triangleArea = length * height / 2;
+        System.out.println(triangleArea);
+
+        //少数を扱おう
+        double number6 =8.5;
+        double number7 =3.4;
+        System.out.println(number6+number7);
+        System.out.println(number6-number7);
+
+        //自動型変換
+        int month = 12;
+        int date = 31;
+        System.out.println(month+"月"+date+"日");
+        System.out.println(7/2);
+        System.out.println(7.0/2.0);
+        System.out.println(7/2.0);
 
 
 
