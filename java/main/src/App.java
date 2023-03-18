@@ -75,6 +75,23 @@ public class App {
         System.out.println(7.0/2.0);
         System.out.println(7/2.0);
 
+        //強制型変換
+        int number8 = 7;
+        int number9 = 2;
+        System.out.println(number8 / number9);
+        System.out.println((double)number8/number9);
+
+        //総合演習1
+        String name1 = "パク";
+        int age =12;
+        double height1 =1.2;
+        double weight1 =20.0;
+        double bmi = weight1/height1/height1;
+        System.out.println("名前は"+name1+"です");
+        System.out.println("年齢は"+age+"歳です");
+        System.out.println("身長は"+height1+"mです");
+        System.out.println("体重は"+weight1+"kgです");
+        System.out.println("BMIは"+bmi+"です");
 
 
 
