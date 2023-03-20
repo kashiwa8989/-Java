@@ -93,9 +93,6 @@ public class App {
         System.out.println("体重は"+weight1+"kgです");
         System.out.println("BMIは"+bmi+"です");
 
-
-
         
-
-    }
+} 
 }
