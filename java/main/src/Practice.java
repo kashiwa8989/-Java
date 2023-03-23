@@ -104,6 +104,35 @@ public class  Practice {
         System.out.println(j);
         }
 
+        //配列について
+        String[]names = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"};
+        System.out.println(names[0]);
+        System.out.println(names[2]);
+
+        //配列要素の上書き
+        String[]languages = {"Ruby", "PHP", "Python"};
+        System.out.println(languages[1]);
+        languages[1]="Java";
+        System.out.println(languages[1]);
+
+        //配列と繰り返し
+        String[]names1 = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"};
+        for(int i1 = 0; i1 < names1.length; i1++){
+            System.out.println("私の名前は"+ names1[i1] +"です");
+        }
+
+        //配列用のfor文
+        String[]names2 = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"};
+        for(String name:names2){
+            System.out.println("私の名前は"+ name +"です");
+        }
+
+
+
+
+
+
+
 
         
 
