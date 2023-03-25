@@ -127,6 +127,23 @@ public class  Practice {
             System.out.println("私の名前は"+ name +"です");
         }
 
+        //総合課題2
+        int numbers2[] = {1, 4, 6, 9, 13, 16};
+
+        int oddSum = 0;
+        int evenSum = 0;
+
+        for(int number2:numbers2){
+            if(number2 % 2 ==0){
+                evenSum += number2;
+            }else{
+                oddSum += number2;
+            }
+        }
+        System.out.println("奇数の和は" + oddSum + "です");
+        System.out.println("偶数の和は" + evenSum + "です");
+
+
 
 
 
