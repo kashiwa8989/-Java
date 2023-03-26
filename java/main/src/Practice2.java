@@ -1,4 +1,4 @@
-public class  Practice {
+public class  Practice2 {
     public static void main(String[] args) throws Exception {
         //真偽値・比較演算子１
         System.out.println(true);
