@@ -3,3 +3,4 @@ public class Practice31 {
     System.out.println("名前はKate Jonesです");
     }
 }
+
